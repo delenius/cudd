@@ -1,3 +1,10 @@
+This fork contains the fixes described here, in order to compile on Mac OSX:
+https://www.technical-recipes.com/2011/setting-up-the-cu-decision-diagram-cudd-package-for-windows/
+
+Otherwise, everything is kept the same as the upstream version.
+
+
+------------
 The CUDD package is a package written in C for the manipulation of
 decision diagrams.  It supports binary decision diagrams (BDDs),
 algebraic decision diagrams (ADDs), and Zero-Suppressed BDDs (ZDDs).
