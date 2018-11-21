@@ -73,7 +73,8 @@
 #endif
 
 #ifdef BSD
-#if defined(_IBMR2)
+//#if defined(_IBMR2)
+#if 0
 #define etext _etext
 #define edata _edata
 #define end _end
@@ -104,7 +105,8 @@ util_print_cpu_stats(FILE *fp)
     struct rlimit rlp;
     long vm_limit, vm_soft_limit;
     char hostname[257];
-#ifdef BSD
+//#ifdef BSD
+#if 0
     long vm_text, vm_init_data, vm_uninit_data, vm_sbrk_data;
 #endif
 
